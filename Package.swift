@@ -25,7 +25,8 @@ let package = Package(
         .target(
             name: "SVGKit",
             dependencies: [
-                "CocoaLumberjack"
+                "CocoaLumberjack",
+                "CocoaLumberjackSwift"
             ],
             path: "Source",
             exclude: [
